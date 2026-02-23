@@ -1,10 +1,10 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_PILLZMOD_PRO
+if SHIELD_NICEPILLZ
 
 config ZMK_KEYBOARD_NAME
-    default "Pillz Mod Pro"
+    default "Nice Pillz"
 
 config SPI
     default y

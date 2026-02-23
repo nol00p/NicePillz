@@ -3070,6 +3070,10 @@
 		(uuid "7cfd1dae-8782-42b4-942b-27ab2356b799")
 	)
 	(no_connect
+		(at 138.43 101.6)
+		(uuid "7eecb2ad-0f1a-471d-b02b-56012b44a339")
+	)
+	(no_connect
 		(at 34.29 157.48)
 		(uuid "88d77d64-2b6d-42f7-ba5e-77dfc8e00bb2")
 	)
@@ -3331,16 +3335,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 176.53) (xy 139.7 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d85d9c6-a42c-4d63-b8c9-a4e6f56e5bcb")
-	)
-	(wire
-		(pts
 			(xy 151.13 44.45) (xy 161.29 44.45)
 		)
 		(stroke
@@ -3598,26 +3592,6 @@
 			(type default)
 		)
 		(uuid "80b2222d-228f-48a1-bf46-45d8bb39b3ee")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 148.59 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81215a73-6f96-44c6-9e90-9f1389822cf3")
-	)
-	(wire
-		(pts
-			(xy 152.4 176.53) (xy 152.4 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819ce313-e04f-42c0-9781-d742ca1f0c24")
 	)
 	(wire
 		(pts
@@ -4229,16 +4203,6 @@
 		)
 		(uuid "022ff441-f725-4a3a-ad15-1b05fb3b9d0b")
 	)
-	(label "LED_SCROLL_LOCK"
-		(at 135.89 64.77 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0910ff46-a5de-464a-8935-aa9efceeb2a9")
-	)
 	(label "ROW_5"
 		(at 69.85 73.66 0)
 		(effects
@@ -4449,6 +4413,16 @@
 		)
 		(uuid "3ba7ce02-ad6c-4303-acd7-95acdd330371")
 	)
+	(label "ROW_13"
+		(at 135.89 64.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d42127d-8a05-4ca3-8bfc-17b6930d1d5f")
+	)
 	(label "ROW_1"
 		(at 99.06 52.07 0)
 		(effects
@@ -4588,16 +4562,6 @@
 			(justify right bottom)
 		)
 		(uuid "72ccf852-c8a3-460f-a163-f3e269551d4c")
-	)
-	(label "LED_KEYPAD"
-		(at 138.43 64.77 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73e7a393-d25f-46c5-b75a-57528290fafd")
 	)
 	(label "COL_5"
 		(at 207.01 149.86 180)
@@ -4909,16 +4873,6 @@
 		)
 		(uuid "c0a8beb8-7670-4846-9980-2d514b829a3f")
 	)
-	(label "LED_KEYPAD"
-		(at 152.4 158.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c10d4e3f-e613-4f75-99b3-6b63409183e4")
-	)
 	(label "ROW_8"
 		(at 181.61 135.89 180)
 		(effects
@@ -4938,26 +4892,6 @@
 			(justify left bottom)
 		)
 		(uuid "c3905a55-9b30-4f13-89aa-3901c1571ef7")
-	)
-	(label "ROW_13"
-		(at 149.86 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4e6809f-96a6-4f9b-8705-bd9193580268")
-	)
-	(label "LED_SCROLL_LOCK"
-		(at 139.7 158.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca3f3377-d3bb-431c-99af-682d246b3d86")
 	)
 	(label "COL_4"
 		(at 207.01 43.18 180)
@@ -6133,144 +6067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_port-rescue:LED_ALT-Device")
-		(at 139.7 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6550")
-		(property "Reference" "D3"
-			(at 142.6972 169.2148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_SCR"
-			(at 142.6972 171.5262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ea2beae-af4d-4dfc-9344-df14fe19d8c7")
-		)
-		(pin "2"
-			(uuid "5e95a899-f95a-4af6-a021-5cf19e45e449")
-		)
-		(instances
-			(project "kicad_port"
-				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:LED_ALT-Device")
-		(at 152.4 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6584")
-		(property "Reference" "D4"
-			(at 155.3972 169.2148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_ALT"
-			(at 155.3972 171.5262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 152.4 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "545c4a17-6187-4a62-8ecc-c78f7e104eae")
-		)
-		(pin "2"
-			(uuid "36e4ced5-932e-49d7-b7b1-b29b9fb49434")
-		)
-		(instances
-			(project "kicad_port"
-				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad_port-rescue:R_US-Device")
 		(at 127 162.56 180)
 		(unit 1)
@@ -6403,144 +6199,6 @@
 			(project "kicad_port"
 				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:R_US-Device")
-		(at 139.7 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6c46")
-		(property "Reference" "R3"
-			(at 137.9728 163.7284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 137.9728 161.417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 138.684 162.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a3c65c9-c8a2-4f43-97b3-a22d17ef9ebd")
-		)
-		(pin "2"
-			(uuid "4e4e000c-11f9-4557-bda6-fcc38d008f21")
-		)
-		(instances
-			(project "kicad_port"
-				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:R_US-Device")
-		(at 152.4 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005c6b6c7a")
-		(property "Reference" "R4"
-			(at 150.6728 163.7284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_US"
-			(at 150.6728 161.417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 151.384 162.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "646148e3-59d9-4b95-a4be-4c1e8c4b699c")
-		)
-		(pin "2"
-			(uuid "1f6bb657-2cfc-4058-9b28-8e634169c1dc")
-		)
-		(instances
-			(project "kicad_port"
-				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7240,138 +6898,6 @@
 			(project ""
 				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:GND-power")
-		(at 152.4 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c308fb5-90f2-4175-b099-adb2ac3acdbc")
-		(property "Reference" "#PWR08"
-			(at 152.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.527 179.7812 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37e85c55-e929-405b-899e-e61f014af629")
-		)
-		(instances
-			(project "pcb-pro"
-				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_port-rescue:GND-power")
-		(at 139.7 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "617e3411-4d58-4e9b-ad05-dee7f96e4fc5")
-		(property "Reference" "#PWR07"
-			(at 139.7 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.827 179.7812 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d4f09bb-5bf1-428a-94e7-173618f0d61b")
-		)
-		(instances
-			(project "pcb-pro"
-				(path "/2f5297a0-6822-492a-a296-0cbef0b8cf70"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)

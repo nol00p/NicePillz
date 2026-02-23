@@ -1,0 +1,19 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: urob
+      url-base: https://github.com/urob
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: zmk-leader-key
+      remote: urob
+      revision: v0.3 # set to same as ZMK version above
+    - name: zmk-helpers
+      remote: urob
+      revision: v0.3
+  self:
+    path: config

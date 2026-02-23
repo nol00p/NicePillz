@@ -1,0 +1,9 @@
+file_format: "1"
+id: nicepillz
+name: Nice Pillz
+type: shield
+url: https://github.com/nol00p/NicePillz
+requires: [pro_micro]
+features:
+  - keys
+  - studio

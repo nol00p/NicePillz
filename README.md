@@ -8,5 +8,11 @@ Changes include:
 
 ![board](Media/nice_pillz.png)
 
+## Thumb cluster
+This is still ongoing. the 2 pcbs should be good, but they need to be merged. 
+
+## ZMK
+This is still a work in progress, as soon as I have a working pcb on hand the code will follow.
+
 ## Attribution
 This project is a fork of https://github.com/dcpedit/pillzmod

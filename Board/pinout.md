@@ -30,7 +30,7 @@
 | 24 | B0 | BAT |
 | 26 | D5 | /LED_CAPS_LOCK |
 | 27 | C7 | /LED_NUM_LOCK |
-| 28 | F1 | /LED_SCROLL_LOCK |
+| 28 | F1 | /ROW_13 |
 
 ## U2 — 74HC595 Shift Register
 
@@ -50,5 +50,5 @@
 | 12 | RCLK | /LATCH |
 | 13 | ~OE | GND (always enabled) |
 | 14 | SER | /SPI_MOSI |
-| 15 | QA | /ROW_13 |
+| 15 | QA | NC |
 | 16 | VCC | +5V |

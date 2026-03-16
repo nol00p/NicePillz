@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 8e065d55b916481ef06ce37cddedb84cf1d15d99 # main as of 2025-02-01, last known working bootloader
       import: app/west.yml
     - name: zmk-leader-key
       remote: urob

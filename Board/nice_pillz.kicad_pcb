@@ -6178,7 +6178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b99e25b-805c-48de-8001-e231f8235912")
@@ -6190,7 +6190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b593efc-4758-43b9-b60c-ccac9b65364f")
@@ -6475,15 +6475,15 @@
 			(uuid "54d488af-280b-4ac7-89bc-85c60fbb16ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Resistors_SMD.3dshapes/R_0805.step"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -3.75 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7623,7 +7623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9676971f-5172-4617-a72c-6e1f3f4ab50b")
@@ -7635,7 +7635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e0b7a7d-feec-4c5a-ae9b-421bd1fecf22")
@@ -7920,15 +7920,15 @@
 			(uuid "79ebccb5-2b4e-4878-abb5-3d9fbe64b5b8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Resistors_SMD.3dshapes/R_0805.step"
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -4 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8345,6 +8345,27 @@
 		)
 	)
 	(gr_arc
+		(start 100 53)
+		(mid 100.87868 50.87868)
+		(end 103 50)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5c9f3026-49dd-44cf-a378-edf15c427225")
+	)
+	(gr_line
+		(start 100 133)
+		(end 100 53)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb12534a-5dec-49ef-a961-f64887f8d99a")
+	)
+	(gr_arc
 		(start 103 136)
 		(mid 100.87868 135.12132)
 		(end 100 133)
@@ -8354,6 +8375,26 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "0aa846a4-74cd-48da-8b58-b78976e723d2")
+	)
+	(gr_line
+		(start 103 136)
+		(end 197 136)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "752417ee-7d0b-4ac8-a22c-26669881a2ab")
+	)
+	(gr_line
+		(start 197 50)
+		(end 103 50)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b5071759-a4d7-4769-be02-251f23cd4454")
 	)
 	(gr_arc
 		(start 197 50)
@@ -8377,37 +8418,6 @@
 		(layer "Edge.Cuts")
 		(uuid "3e076157-3852-402d-bc32-7f5ed7d81bf7")
 	)
-	(gr_arc
-		(start 100 53)
-		(mid 100.87868 50.87868)
-		(end 103 50)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5c9f3026-49dd-44cf-a378-edf15c427225")
-	)
-	(gr_line
-		(start 103 136)
-		(end 197 136)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "752417ee-7d0b-4ac8-a22c-26669881a2ab")
-	)
-	(gr_line
-		(start 197 50)
-		(end 103 50)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b5071759-a4d7-4769-be02-251f23cd4454")
-	)
 	(gr_line
 		(start 200 133)
 		(end 200 53)
@@ -8417,16 +8427,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "cada57e2-1fa7-4b9d-a2a0-2218773d5c50")
-	)
-	(gr_line
-		(start 100 133)
-		(end 100 53)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "cb12534a-5dec-49ef-a961-f64887f8d99a")
 	)
 	(gr_text "Nice Pillz\ngithub.com/nol00p/nicepillz\nv1.1\nFeb 26"
 		(at 158.5 97.5 0)
@@ -8463,16 +8463,17 @@
 			)
 		)
 	)
-	(gr_text "BLE\n"
-		(at 145.3 118.31 0)
+	(gr_text "Nice Pillz\ngithub.com/nol00p/nicepillz\nv1.1\nFeb 26"
+		(at 180.85 98.65 0)
 		(layer "B.SilkS")
-		(uuid "2dc54bac-8640-4dd7-b8ed-3c7acb01a8ea")
+		(uuid "dd755643-bdb3-4db9-8813-a08381c8eac7")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
-			(justify mirror)
+			(justify left mirror)
 		)
 	)
 	(gr_text "PWR"
@@ -8487,17 +8488,16 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Nice Pillz\ngithub.com/nol00p/nicepillz\nv1.1\nFeb 26"
-		(at 180.85 98.65 0)
+	(gr_text "BLE\n"
+		(at 145.3 118.31 0)
 		(layer "B.SilkS")
-		(uuid "dd755643-bdb3-4db9-8813-a08381c8eac7")
+		(uuid "2dc54bac-8640-4dd7-b8ed-3c7acb01a8ea")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
+				(size 1.5 1.5)
+				(thickness 0.3)
 			)
-			(justify left mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "Top Left of Board\nX: 100 Y: 50\n"

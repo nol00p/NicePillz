@@ -14,7 +14,7 @@ Changes include:
 | ----------------- | ---------------- | --- | ------------------------------------------ |
 | J1–J8             | Molex 39-53-2135 | 6   | [Mouser](https://eu.mouser.com/ProductDetail/Molex/39-53-2135?qs=cm0cgiBciNYI3jeMaEn0Ng%3D%3D) |
 |                   | LED              | 2   | [Amazon](https://www.amazon.fr/dp/B005Q2MZ4Q) |
-| R1–R4             | 10k resistor     | 2   | Affects LED brightness. Smaller = brighter |
+| ble-pwr             | 10k resistor     | 2   | Affects LED brightness. Smaller = brighter |
 | U2                | 74HC595          | 1   | [Amazon](https://www.amazon.fr/dp/B093Y2MQGV) |
 | U2                | 16-pin IC socket | 1   | [Amazon](https://www.amazon.fr/dp/B07ZCRTRXK?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
 |                   | Terminals        | 3   | [AliExpress](https://fr.aliexpress.com/item/1005006589335718.html)  |
@@ -23,9 +23,6 @@ Changes include:
 |                   | Nice!Nano        | 1   |                                            |
 |                   | 3.7V battery - 2000mAh | 1   | [Amazon](https://www.amazon.fr/dp/B08214DJLJ) |
 |                   | USB-C panel mount| 1   | [AliExpress](https://fr.aliexpress.com/item/1005009401577622.html)                        |
-
-
-
 
 
 ## Assembly
